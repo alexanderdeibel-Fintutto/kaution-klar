@@ -1,4 +1,4 @@
-import { Moon, Sun, LogIn, LogOut, Calculator, FolderOpen, CreditCard, Settings } from 'lucide-react';
+import { Moon, Sun, LogIn, LogOut, Scale, FolderOpen, CreditCard, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { Link, useLocation } from 'react-router-dom';
@@ -62,8 +62,8 @@ export const Header = ({ onLoginClick }: HeaderProps) => {
               location.pathname === '/' ? 'text-primary' : 'text-muted-foreground'
             }`}
           >
-            <Calculator className="h-4 w-4" />
-            Rechner
+            <Scale className="h-4 w-4" />
+            Kautions-Rechner
           </Link>
           {user && (
             <Link
