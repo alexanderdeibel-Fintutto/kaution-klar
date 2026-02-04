@@ -1,6 +1,7 @@
 /// <reference types="@types/google.maps" />
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { supabase } from '@/integrations/supabase/client';
+import { useAuth } from '@/contexts/AuthContext';
 
 export interface AddressComponents {
   street: string;
@@ -69,6 +70,7 @@ export const useGoogleMapsAutocomplete = ({
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const autocompleteRef = useRef<any>(null);
+  const { session } = useAuth();
 
   const parseAddressComponents = useCallback(
     (place: any): AddressComponents => {
@@ -117,9 +119,20 @@ export const useGoogleMapsAutocomplete = ({
     const initAutocomplete = async () => {
       if (!inputRef.current) return;
 
+      // Check if user is authenticated
+      if (!session?.access_token) {
+        setError('Anmeldung erforderlich für Adresssuche');
+        setIsLoading(false);
+        return;
+      }
+
       try {
-        // Fetch the API key from the edge function
-        const { data, error: fetchError } = await supabase.functions.invoke('google-maps-key');
+        // Fetch the API key from the edge function with auth token
+        const { data, error: fetchError } = await supabase.functions.invoke('google-maps-key', {
+          headers: {
+            Authorization: `Bearer ${session.access_token}`,
+          },
+        });
         
         if (fetchError || !data?.apiKey) {
           console.error('Failed to fetch Google Maps API key:', fetchError);
@@ -173,7 +186,7 @@ export const useGoogleMapsAutocomplete = ({
         googleMaps.maps.event.clearInstanceListeners(autocompleteRef.current);
       }
     };
-  }, [inputRef, onPlaceSelect, countryRestrictions, parseAddressComponents]);
+  }, [inputRef, onPlaceSelect, countryRestrictions, parseAddressComponents, session?.access_token]);
 
   return { isLoading, error };
 };
