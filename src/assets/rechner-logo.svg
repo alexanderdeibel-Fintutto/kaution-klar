@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="453"
+   width="586"
    height="130"
-   viewBox="0 0 453 130"
+   viewBox="0 0 586 130"
    version="1.1"
-   id="svg471"
-   sodipodi:docname="hausmeister-hausmeister-horizontal-animated-transparent.svg"
+   id="svg92"
+   sodipodi:docname="rechner-ftrechner-horizontal-animated-transparent.svg"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview473"
+     id="namedview94"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -21,27 +22,27 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.7439294"
-     inkscape:cx="200.80692"
-     inkscape:cy="56.306113"
+     inkscape:zoom="3.1309824"
+     inkscape:cx="453.53177"
+     inkscape:cy="60.524135"
      inkscape:window-width="1694"
-     inkscape:window-height="1113"
+     inkscape:window-height="1141"
      inkscape:window-x="299"
      inkscape:window-y="31"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg471" />
+     inkscape:current-layer="svg92" />
   <defs
-     id="defs433">
+     id="defs46">
     <linearGradient
        id="ring"
-       x1="0%"
-       y1="100%"
-       x2="100%"
-       y2="0%">
+       x1="0"
+       y1="1"
+       x2="1"
+       y2="0">
       <stop
          offset="0%"
          stop-color="#2563EB"
-         id="stop389">
+         id="stop2">
         <animate
            attributeName="stop-color"
            values="#2563EB;#E879F9;#10B981;#F97316;#2563EB"
@@ -51,7 +52,7 @@
       <stop
          offset="25%"
          stop-color="#14B8A6"
-         id="stop391">
+         id="stop4">
         <animate
            attributeName="stop-color"
            values="#14B8A6;#2563EB;#E879F9;#84CC16;#14B8A6"
@@ -61,7 +62,7 @@
       <stop
          offset="50%"
          stop-color="#EAB308"
-         id="stop393">
+         id="stop6">
         <animate
            attributeName="stop-color"
            values="#EAB308;#14B8A6;#2563EB;#E879F9;#EAB308"
@@ -71,7 +72,7 @@
       <stop
          offset="75%"
          stop-color="#E879F9"
-         id="stop395">
+         id="stop8">
         <animate
            attributeName="stop-color"
            values="#E879F9;#F97316;#14B8A6;#2563EB;#E879F9"
@@ -81,7 +82,7 @@
       <stop
          offset="100%"
          stop-color="#2563EB"
-         id="stop397">
+         id="stop10">
         <animate
            attributeName="stop-color"
            values="#2563EB;#E879F9;#10B981;#F97316;#2563EB"
@@ -93,23 +94,23 @@
        id="glow"
        x="-0.132"
        y="-0.132"
-       width="1.264"
-       height="1.264">
+       width="1.2640001"
+       height="1.2640001">
       <feGaussianBlur
          stdDeviation="3"
          result="blur"
-         id="feGaussianBlur400" />
+         id="feGaussianBlur13" />
       <feMerge
-         id="feMerge408">
+         id="feMerge21">
         <feMergeNode
            in="blur"
-           id="feMergeNode402" />
+           id="feMergeNode15" />
         <feMergeNode
            in="blur"
-           id="feMergeNode404" />
+           id="feMergeNode17" />
         <feMergeNode
            in="SourceGraphic"
-           id="feMergeNode406" />
+           id="feMergeNode19" />
       </feMerge>
     </filter>
     <filter
@@ -121,7 +122,7 @@
       <feGaussianBlur
          stdDeviation="6"
          result="blur1"
-         id="feGaussianBlur411">
+         id="feGaussianBlur24">
         <animate
            attributeName="stdDeviation"
            values="6;9;6"
@@ -131,30 +132,30 @@
       <feGaussianBlur
          stdDeviation="3"
          result="blur2"
-         id="feGaussianBlur413" />
+         id="feGaussianBlur26" />
       <feMerge
-         id="feMerge421">
+         id="feMerge34">
         <feMergeNode
            in="blur1"
-           id="feMergeNode415" />
+           id="feMergeNode28" />
         <feMergeNode
            in="blur2"
-           id="feMergeNode417" />
+           id="feMergeNode30" />
         <feMergeNode
            in="SourceGraphic"
-           id="feMergeNode419" />
+           id="feMergeNode32" />
       </feMerge>
     </filter>
     <filter
        id="icon-glow"
-       x="-0.017075927"
-       y="-0.15961909"
-       width="1.0341519"
-       height="1.3192382">
+       x="-0.121"
+       y="-0.13518152"
+       width="1.242"
+       height="1.270363">
       <feGaussianBlur
          stdDeviation="2"
          result="blur"
-         id="feGaussianBlur424">
+         id="feGaussianBlur37">
         <animate
            attributeName="stdDeviation"
            values="2;3.5;2"
@@ -162,41 +163,62 @@
            repeatCount="indefinite" />
       </feGaussianBlur>
       <feMerge
-         id="feMerge430">
+         id="feMerge43">
         <feMergeNode
            in="blur"
-           id="feMergeNode426" />
+           id="feMergeNode39" />
         <feMergeNode
            in="SourceGraphic"
-           id="feMergeNode428" />
+           id="feMergeNode41" />
       </feMerge>
     </filter>
-    <filter
-       id="icon-glow-2"
-       x="-0.10970214"
-       y="-0.13255572"
-       width="1.2194043"
-       height="1.2715769">
-      <feGaussianBlur
-         stdDeviation="5"
-         result="blur"
-         id="feGaussianBlur56">
-        <animate
-           attributeName="stdDeviation"
-           values="5;8;5"
-           dur="2.5s"
-           repeatCount="indefinite" />
-      </feGaussianBlur>
-      <feMerge
-         id="feMerge62">
-        <feMergeNode
-           in="blur"
-           id="feMergeNode58" />
-        <feMergeNode
-           in="SourceGraphic"
-           id="feMergeNode60" />
-      </feMerge>
-    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ring"
+       id="linearGradient989"
+       x1="-15.1"
+       y1="145.10001"
+       x2="145.10001"
+       y2="-15.1"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ring"
+       id="linearGradient991"
+       x1="1.8000001"
+       y1="128.20001"
+       x2="128.20001"
+       y2="1.8000001"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ring"
+       id="linearGradient993"
+       x1="10.657152"
+       y1="119.41782"
+       x2="119.58259"
+       y2="10.492379"
+       gradientTransform="scale(0.99930934,1.0006911)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ring"
+       id="linearGradient995"
+       x1="12.156983"
+       y1="117.90567"
+       x2="118.06984"
+       y2="11.992807"
+       gradientTransform="scale(0.99940848,1.0005919)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ring"
+       id="linearGradient997"
+       x1="10.5"
+       y1="119.5"
+       x2="119.5"
+       y2="10.5"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <circle
      cx="65"
@@ -206,7 +228,8 @@
      stroke="url(#ring)"
      stroke-width="17"
      filter="url(#glow-strong)"
-     id="circle435">
+     id="circle48"
+     style="stroke:url(#linearGradient989)">
     <animate
        attributeName="opacity"
        values="0.12;0.28;0.12"
@@ -221,7 +244,8 @@
      stroke="url(#ring)"
      stroke-width="12"
      filter="url(#glow)"
-     id="circle437">
+     id="circle50"
+     style="stroke:url(#linearGradient991)">
     <animate
        attributeName="opacity"
        values="0.3;0.55;0.3"
@@ -236,9 +260,10 @@
      stroke="url(#ring)"
      stroke-width="9"
      opacity="0.4"
-     stroke-dasharray="15 8"
+     stroke-dasharray="15, 8"
      stroke-linecap="round"
-     id="circle439">
+     id="circle52"
+     style="stroke:url(#linearGradient993)">
     <animateTransform
        attributeName="transform"
        type="rotate"
@@ -255,9 +280,10 @@
      stroke="url(#ring)"
      stroke-width="6"
      opacity="0.25"
-     stroke-dasharray="8 15"
+     stroke-dasharray="8, 15"
      stroke-linecap="round"
-     id="circle441">
+     id="circle54"
+     style="stroke:url(#linearGradient995)">
     <animateTransform
        attributeName="transform"
        type="rotate"
@@ -274,10 +300,11 @@
      stroke="url(#ring)"
      stroke-width="9"
      opacity="0.7"
-     id="circle443" />
+     id="circle56"
+     style="stroke:url(#linearGradient997)" />
   <g
      filter="url(#glow)"
-     id="g457">
+     id="g70">
     <line
        x1="65"
        y1="8"
@@ -286,7 +313,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line445">
+       id="line58">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -302,7 +329,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line447">
+       id="line60">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -318,7 +345,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line449">
+       id="line62">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -334,7 +361,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line451">
+       id="line64">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -350,7 +377,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line453">
+       id="line66">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -366,7 +393,7 @@
        stroke="rgba(255,255,255,0.6)"
        stroke-width="1.5"
        stroke-linecap="round"
-       id="line455">
+       id="line68">
       <animate
          attributeName="opacity"
          values="0.2;0.9;0.2"
@@ -374,6 +401,72 @@
          begin="1.66s"
          repeatCount="indefinite" />
     </line>
+  </g>
+  <g
+     transform="matrix(0.83598487,0,0,0.62994143,35.18642,38.42462)"
+     stroke="#ffffff"
+     stroke-width="2.5"
+     fill="none"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     filter="url(#icon-glow)"
+     id="g88">
+    <rect
+       x="12"
+       y="8"
+       width="50"
+       height="65"
+       rx="5"
+       id="rect72">
+      <animate
+         attributeName="opacity"
+         values="0.85;1;0.85"
+         dur="2s"
+         repeatCount="indefinite" />
+    </rect>
+    <rect
+       x="20"
+       y="16"
+       width="34"
+       height="16"
+       rx="2"
+       id="rect74" />
+    <circle
+       cx="26"
+       cy="46"
+       r="4"
+       fill="#ffffff"
+       id="circle76" />
+    <circle
+       cx="37"
+       cy="46"
+       r="4"
+       fill="#ffffff"
+       id="circle78" />
+    <circle
+       cx="48"
+       cy="46"
+       r="4"
+       fill="#ffffff"
+       id="circle80" />
+    <circle
+       cx="26"
+       cy="60"
+       r="4"
+       fill="#ffffff"
+       id="circle82" />
+    <circle
+       cx="37"
+       cy="60"
+       r="4"
+       fill="#ffffff"
+       id="circle84" />
+    <circle
+       cx="48"
+       cy="60"
+       r="4"
+       fill="#ffffff"
+       id="circle86" />
   </g>
   <text
      x="145"
@@ -384,57 +477,17 @@
      letter-spacing="4"
      fill="#ffffff"
      filter="url(#icon-glow)"
-     id="text469"
-     style="font-size:41.3333px">hausmeister<animate
+     id="text90"><tspan
+       sodipodi:role="line"
+       id="tspan1053"
+       x="145"
+       y="78">fintutto rechner<animate
    attributeName="opacity"
    values="0.85;1;0.85"
    dur="2s"
-   repeatCount="indefinite" /></text>
-  <g
-     transform="matrix(0.28031872,0,0,0.32364478,47.638474,26.769911)"
-     stroke="#ffffff"
-     stroke-width="8"
-     fill="none"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     filter="url(#icon-glow)"
-     id="g101"
-     style="display:inline;filter:url(#icon-glow-2);stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0">
-    <circle
-       cx="21.798351"
-       cy="143.77048"
-       r="30"
-       id="circle93"
-       inkscape:transform-center-x="-9.8705772"
-       inkscape:transform-center-y="-38.072226"
-       style="stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0">
-      <animate
-         attributeName="opacity"
-         values="0.85;1;0.85"
-         dur="2s"
-         repeatCount="indefinite" />
-    </circle>
-    <path
-       d="M 52.541762,130.87576 109.97594,88.045237"
-       id="path95"
-       inkscape:transform-center-x="-17.318293"
-       inkscape:transform-center-y="-12.431319"
-       style="stroke-width:7.09269;stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0" />
-    <path
-       d="M 109.56096,87.800677 137.64783,66.326802"
-       id="path97"
-       style="stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0" />
-    <path
-       d="M 117.68923,82.435604 109.59924,71.787892"
-       id="path99"
-       style="stroke-width:5.03888;stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0" />
-    <path
-       d="M 126.36025,72.533623 115.97601,58.680118"
-       id="path309"
-       style="stroke-width:6.51177;stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0" />
-    <path
-       d="M 104.10333,89.794438 92.334403,74.969247"
-       id="path311"
-       style="stroke-width:7.17134;stroke:#cebd47;stroke-opacity:0;fill:#ffd07d;fill-opacity:0" />
-  </g>
+   repeatCount="indefinite" /></tspan><tspan
+       sodipodi:role="line"
+       id="tspan1055"
+       x="145"
+       y="138" /></text>
 </svg>
