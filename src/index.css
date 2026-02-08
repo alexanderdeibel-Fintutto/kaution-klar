@@ -123,11 +123,11 @@
 
 @layer components {
   .gradient-primary {
-    background: linear-gradient(135deg, hsl(215, 75%, 50%) 0%, hsl(200, 85%, 45%) 100%);
+    background: url('/images/gamma-bg-vermieter-horizontal-4k.png') center/cover no-repeat;
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, hsl(215, 75%, 50%) 0%, hsl(200, 85%, 45%) 100%);
+    background: linear-gradient(135deg, hsl(270, 60%, 40%) 0%, hsl(20, 80%, 60%) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
