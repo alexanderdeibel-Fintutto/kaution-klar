@@ -53,7 +53,7 @@ export const Header = ({ onLoginClick }: HeaderProps) => {
     <header className="sticky top-0 z-50 w-full gradient-primary">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src={rechnerLogo} alt="Fintutto Rechner" className="h-8" />
+          <img src={rechnerLogo} alt="Fintutto Rechner" className="h-10" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
